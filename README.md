@@ -1,6 +1,6 @@
 # ECE243---Computer-Organization
 
-**Lab 1: Subroutine\
+### Lab 1: Subroutine\
  - Part 2: Program that determines largest number stored in memory by implementing a Subroutine\
  - Part 3: Program that converts a Binary number into 2 Decimal digits
 
