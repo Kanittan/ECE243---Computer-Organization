@@ -28,12 +28,13 @@
 #### Open Software Final Project: Soccer Game
 - Programmed an entire Soccer Game using C Programming Language.
 - Game Objective: Score 10 goals to win the game
-- Game Ends When: Player hits wall OR when Player scores 10 Goals
+- Game Ends When: Player hits wall OR when Player scores 10 Goals\
 
 - Implemented Interrupts from I/O Decive (Up Arrow, Down Arrow, and Pushbutton KEY0 from the keyboard keys)
 - Use Up Arrow and Down Arrow from keyboard to control the player's movement Up/Down
 - Pressing on Pushbutton KEY0 shoots the ball from the palyer's right foot
-- Number of goal(s) scored is updated displayed on the HEX Display
+- Number of goal(s) scored is updated displayed on the HEX Display when ball hits the goal
+- Ball disappears when hits wall and the goal
 - When player scores 10 goals, "You Win" is displayed onto the HEX Display
 - Coded the moving walls and goals
 
