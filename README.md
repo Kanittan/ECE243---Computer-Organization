@@ -27,9 +27,19 @@
 
 #### Open Software Final Project: Soccer Game
 - Programmed an entire Soccer Game using C Programming Language.
+- Game Objective: Score 10 goals to win the game
+- Game Ends When: Player hits wall OR when Player scores 10 Goals
+
 - Implemented Interrupts from I/O Decive (Up Arrow, Down Arrow, and Pushbutton KEY0 from the keyboard keys)
 - Use Up Arrow and Down Arrow from keyboard to control the player's movement Up/Down
 - Pressing on Pushbutton KEY0 shoots the ball from the palyer's right foot
+- Number of goal(s) scored is updated displayed on the HEX Display
+- When player scores 10 goals, "You Win" is displayed onto the HEX Display
 - Coded the moving walls and goals
-- Game Objective: Score the as much goal as possible
-- Game Ends When: Player hits wall OR time (1 minute) is up.
+
+- To play game:
+  - 1.)Go to https://cpulator.01xz.net/
+  - 2.)Select ARMv7 for Architecture and ARMv7 DE1-SoC for System.
+  - 3.)Change Language from "ARMv7" to "C"
+  - 4.) Copy and paste the code into the IDE
+  - 5.) Click Compile and Load
