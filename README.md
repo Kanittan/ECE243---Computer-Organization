@@ -24,3 +24,12 @@
 
 #### Lab 8: Enhanced Processor
 - Designed an Enhanced Processor in Verilog
+
+#### Open Software Final Project: Soccer Game
+- Programmed an entire Soccer Game using C Programming Language.
+- Implemented Interrupts from I/O Decive (Up Arrow, Down Arrow, and Pushbutton KEY0 from the keyboard keys)
+- Use Up Arrow and Down Arrow from keyboard to control the player's movement Up/Down
+- Pressing on Pushbutton KEY0 shoots the ball from the palyer's right foot
+- Coded the moving walls and goals
+- Game Objective: Score the as much goal as possible
+- Game Ends When: Player hits wall OR time (1 minute) is up.
