@@ -169,21 +169,6 @@ bool game_Over = false;
 
 int main(void)
 {
-	//unsigned char byte1 = 0;
-	//unsigned char byte2 = 0;
-	//unsigned char byte3 = 0;
-	
-	/////// BELOW: For Polled I/O /////////
-	//volatile int * LEDR = (int *) 0xFF200000;	  // LEDR - FOR DEBUGGING
-  	
-	//volatile int * PS1_ptr = (int *) 0xFF200100;  // PS1/2 port address
-	//int PS1_data, R1VALID;
-	
-	
-	//volatile int * PS2_ptr = (int *) 0xFF200108;  // PS2/2 port address
-	//int PS2_data, R2VALID;
-	////////////////////////////////
-	
     volatile int * pixel_ctrl_ptr = (int *)0xFF203020;
     /* Read location of the pixel buffer from the pixel buffer controller */
     pixel_buffer_start = *pixel_ctrl_ptr;
@@ -195,26 +180,6 @@ int main(void)
 	draw_Player();
 	draw_Ball(*player_curr_loc_x+4, *player_curr_loc_y+9);
 	
-	// TESTING for Ball Disappear when Hits Wall
-	//draw_line(200, 0, 200, 239, 0xf1ff);
-	//draw_pattern1(308, 0);
-	//draw_pattern2(308, 0);
-	//draw_pattern3(308, 0);
-	//draw_pattern1(308, 0, 0xf1ff);
-	//draw_pattern3(100, 0, 0xf1ff);
-	// Use Time Seed for rand()
-   	//time_t t;
-   
-  	/* Intializes random number generator */
-  	//srand((unsigned) time(&t));
-	
-	//printf("Print Patten 1\n");
-	//pattern1_is_called = true;
-	
-	//draw_goal(20, 100, 20, 200, 0xffff, 0xf1ff);
-	
-	/////ADDED TO TEST: REMOVE AFTERWARDS: /////
-	//draw_line(*player_curr_loc_x+4+7, *player_curr_loc_y+9, *player_curr_loc_x+11+7, *player_curr_loc_y+9, 0xFFFF);
 	disable_A9_interrupts();
  	set_A9_IRQ_stack();
  	config_GIC();
